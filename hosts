@@ -1,0 +1,9 @@
+[app]
+10.128.0.10 ansible_ssh_user=chett
+10.128.0.34 ansible_ssh_user=chett
+
+[database]
+10.128.0.30 ansible_ssh_user=chett
+
+[web]
+10.128.0.30 ansible_ssh_user=chett
