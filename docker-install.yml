@@ -1,0 +1,7 @@
+---
+- hosts: app
+tasks:
+- name: Install Docker
+ansible.builtin.shell: cd ~ && curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
+- name: Run Docker
+ansible.builtin.sheel: "docker run"
